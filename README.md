@@ -25,17 +25,21 @@ Follow these steps to set up the project:
     cd Django-React-NotesApp
     ```
 
-3. Create a virtual environment:
-    - For Windows:
-        ```bash
-        virtualenv env
-        .\env\Scripts\activate
-        ```
-    - For Linux or Mac:
-        ```bash
-        python -m venv env
-        source env/bin/activate
-        ```
+3. Create a Virtual Environment:
+
+- **For Windows:**
+    ```bash
+    python -m venv env
+    .\env\Scripts\activate
+    ```
+
+- **For Linux or Mac:**
+    ```bash
+    python3 -m venv env
+    source env/bin/activate
+    ```
+
+These commands create a virtual environment named 'env' and activate it based on the respective operating systems.
 
 ## Running the App
 To run the Notes App, execute the following command:
